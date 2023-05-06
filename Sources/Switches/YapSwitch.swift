@@ -345,6 +345,7 @@ public enum shapeType {
     sendActions(for: .valueChanged)
     valueChange?(isOn)
     CATransaction.commit()
+    stateDidChange()
   }
 
   // MARK: - Touches
