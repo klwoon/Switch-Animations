@@ -374,7 +374,6 @@ public enum shapeType {
 
   @objc
   fileprivate func touchDown() {
-    print("touch down")
     isTouchDown = true
     layoutSublayers(of: layer)
   }
